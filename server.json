@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.mattercatalog/catalog",
+  "title": "MatterCatalog",
+  "description": "Is a smart home device Matter certified? CSA certificates, networks, platforms and US stores.",
+  "version": "1.0.0",
+  "websiteUrl": "https://mattercatalog.com/developers",
+  "icons": [
+    {
+      "src": "https://mattercatalog.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://mattercatalog.com/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mattercatalog.com/api/mcp?src=mcp-registry"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mattercatalog": {
+      "type": "http",
+      "url": "https://mattercatalog.com/api/mcp?src=mcp-github"
+    }
+  }
+}

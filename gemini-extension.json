@@ -1,0 +1,10 @@
+{
+  "name": "mattercatalog",
+  "version": "1.0.0",
+  "description": "Is a smart home device Matter certified? CSA certificates, networks, platforms and US stores, from MatterCatalog. Read-only, no sign-in.",
+  "mcpServers": {
+    "mattercatalog": {
+      "httpUrl": "https://mattercatalog.com/api/mcp?src=gemini-cli"
+    }
+  }
+}
